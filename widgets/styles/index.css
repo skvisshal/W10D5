@@ -2,16 +2,47 @@ html, body {
     font-family: 'Mukta', sans-serif;
 }
 
+.clock-header > h1 { 
+    margin: 0 20px 0 20px;
+    font-size: 30px;
+ 
+}
+.tabs-folder {
+    width: 250px;
+    height: 200px;
+}
+
+.tab-list {
+    width: 250px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-element {
+    width: 33%;
+    border: 2px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.selected {
+    font-weight: bold;
+    border-bottom: 0px;
+}
+
 .clock {
     font-size: 30px;
-    display: flex;
     width: 600px;
     height: 100px;
     background-color: darkcyan;
     margin: 0 20px 20px 20px;
+    border: 1px solid black;
 }
 
-.clock > p {
+.clock > div {
     margin: 10px;
     display: flex;
     justify-content: space-between;

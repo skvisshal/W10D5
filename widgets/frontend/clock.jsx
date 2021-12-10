@@ -32,19 +32,19 @@ export default class Clock extends React.Component  {
         let date = this.state.time.toLocaleDateString();
 
         return (
-            <div>
+            <div className="clock-header">
                 <h1>
                     Clock
                 </h1>
                 <div className="clock">
-                    <p>
+                    <div>
                         <p>Time: </p>
                         <p>{time} EST</p>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <p>Date: </p>
                         <p>{date}</p>
-                    </p>
+                    </div>
                 </div>
             </div>
             
