@@ -1,0 +1,10 @@
+html, body {
+    font-family: 'Mukta', sans-serif;
+}
+
+.clock {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    background-color: darkcyan;
+}
