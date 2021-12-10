@@ -38,12 +38,12 @@ export default class Clock extends React.Component  {
                 </h1>
                 <div className="clock">
                     <p>
-                        <span>Time: </span>
-                        <span>{time} EST</span>
+                        <p>Time: </p>
+                        <p>{time} EST</p>
                     </p>
                     <p>
-                        <span>Date: </span>
-                        <span>{date}</span>
+                        <p>Date: </p>
+                        <p>{date}</p>
                     </p>
                 </div>
             </div>
