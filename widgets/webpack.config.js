@@ -1,9 +1,11 @@
 var path = require('path');
 
 module.exports = {
+    context: __dirname,
     entry: './frontend/widgets.jsx',
     output: {
         filename: './bundle.js',
+        path: path.resolve(__dirname)
     },
     module: {
         rules: [
@@ -13,7 +15,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['@babel/env', '@babel/react']
+                        presets: ['env', 'react']
                     }
                 },
             }
